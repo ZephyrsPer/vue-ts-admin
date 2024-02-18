@@ -1,0 +1,33 @@
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* 使用视窗的高度作为容器的高度 */
+
+    .login-container {
+        position: relative;
+
+        .login-card {
+            padding: 20px;
+            width: 400px;
+
+            .el-form {
+                .el-button {
+                    margin-top: 15px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .userPwd {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+
+        div {
+            margin-top: 10px;
+        }
+    }
+}
